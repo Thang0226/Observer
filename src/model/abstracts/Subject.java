@@ -11,7 +11,7 @@ public abstract class Subject {
 		observers.add(o);
 	}
 
-	public abstract void remove(Observer o);
+	public abstract void removeObserver(Observer o);
 
 	public void notifyObservers() {
 		for (Observer observer : observers) {
